@@ -7,7 +7,12 @@
     <title>Testanto PHP</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 
-    
+    <style>
+        body{
+            background-color: rgb(79, 91, 147);
+            color: white;
+        }
+    </style>
 </head>
 <body>
     <h1>Testando PHP</h1>
