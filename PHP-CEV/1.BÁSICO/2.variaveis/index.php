@@ -10,8 +10,10 @@
     <h1>VARIÁVEIS</h1>
     <hr><br>
     <?php
-        echo "Hello World!" //echo é similar ao escreva do algoritmo
+        echo "Hello World!"; //echo é similar ao escreva do algoritmo
+        //echo: print e printf
 
+        echo "Pular de linha <br>";
 
     ?>
     
