@@ -35,7 +35,7 @@
 
         //O PHP É COMPATÍVEL COM OS TIPOS PRIMITIVOS DE VARIÁVEIS.
         
-        //VARIÁVEIS NO PHP:
+        //VARIÁVEIS NO PHP (TYPECAST":
         
         //INTEIRO (int), (integer)
         //REAL (real), (float), (double)
