@@ -11,6 +11,7 @@
     <h1>OPERADORES ARITMÉTICOS:</h1>
     <hr>
     <h2><u>Operadores:</u></h2>
+
     <p>Adição: <strong>+</strong></p>
     <p>Subtração: <strong>-</strong></p>
     <p>Multiplicação: <strong>*</strong></p>
@@ -18,16 +19,14 @@
     <p>Módulo (resto da divisão): <strong>%</strong></p>
 
     <h2><u>Ordem de prescedência:</u></h2>
-    <pre>
-    () 
-    * / % 
-    + - 
-        
-    </pre>
+
+    <p>( )</p> 
+    <p>* / %</p> 
+    <p>+ -</p> 
     
     <hr>
 
-    <div id="operadores">
+    <div id="operadoresAritmeticos">
         <?php
         /*
 
@@ -101,12 +100,15 @@
 
     <hr>
 
-    <h2> · <u>Valores Personalizados (pedindo ao usuário para entrar com os dados):</u></h2> 
+    <h2> · <u>VALORES PERSONALIZADOS (pedindo ao usuário para entrar com os dados):</u></h2> 
+    
     <hr>
-    <div id="valPerso">
+
+    <div id="valoresPersonalizados">
         <?php
-            /**/
-            //1)Entrar com os valores na URL do documento
+            /*
+
+            //1ª OPÇÃO (Básico): Entrar com os valores na URL do documento
             //Ex:
             //http://localhost/.../index.php?a=3&b=2
             
@@ -125,8 +127,48 @@
             echo "<br>A multiplicação entre n1 e n2 é: ". ($n1 * $n2);
             echo "<br>A divisão entre n1 e n2 é: ". ($n1 / $n2);
             echo "<br>O módulo (resto da divisão) entre n1 e n2 é: ". ($n1 % $n2);
-        
+
+            */
         ?>    
+    </div>
+
+    <h2><u>Funções Aritméticas:</u></h2>
+
+    <p>Valor Absoluto: <strong> abs() </strong></p>
+    <p>Potenciação: <strong> pow() </strong></p>
+    <p>Raiz Quadrada: <strong> sqrt() </strong></p>
+    <p>Arredondamento: <strong> round() </strong></p>
+    <p>Valor Inteiro da Variável: <strong> intval() </strong></p>
+    <p>Formatação: <strong> number_format() </strong></p>
+
+    <hr>
+
+    <div id="funcoesAritmeticas">
+        <?php
+        /*
+
+        //1ª OPÇÃO (Básico): Entrar com os valores na URL do documento
+            //Ex:
+            //http://localhost/.../index.php?a=3&b=2
+
+        $v1 = $_GET["x"];
+        $v2 = $_GET["y"];
+
+        echo "v1 = $v1 <br>";
+        echo "v2 = $v2 <br><br>";
+
+        echo "Valores recebidos: $v1 e $v2 <br><br>";
+
+        echo "O valor absoluto de $v2 é: ". abs($v2);
+        echo "<br>A potencia de $v1<sup>$v2</sup> é: ". pow($v1, $v2);
+        echo "<br>A raiz quadrada de $v1 é: ". sqrt($v1);
+        echo "<br>O arredondamento de $v2 é: ". round($v2);
+        echo "<br>O valor inteiro de $v2 é: ". intval($v2);
+        echo "<br>A formatação de $v1 em moeda é R$ ". number_format($v1, 2, ",", ".");
+        
+        */
+        
+        ?>
     </div>
 
 </body>
