@@ -106,9 +106,20 @@
         <!--
             1)Entrar com os valores na URL do documento
             Ex:
-            http://localhost/GitHub/jonesramos01/PHP/PHP-CEV/1.BASICO/3.operadores/1.aritm%c3%a9ticos/?a=3&b=2
+            //http://localhost/GitHub/jonesramos01/PHP/PHP-CEV/1.BASICO/3.operadores/1.aritm%c3%a9ticos/?a=3&b=2
+
         -->
+
     </pre>
+
+    <div id="valPerso">
+        <?php
+        
+            $n1 = $_GET["a"];
+            $n2 = $_GET["b"];
+        
+        ?>    
+    </div>
 
 </body>
 </html>
