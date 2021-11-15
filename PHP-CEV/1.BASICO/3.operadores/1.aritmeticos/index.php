@@ -101,15 +101,16 @@
 
     <hr>
 
-    <h2><u>Valores Personalizados (pedindo ao usuário para entrar com os dados):</u></h2> 
+    <h2> · <u>Valores Personalizados (pedindo ao usuário para entrar com os dados):</u></h2> 
     <hr>
     <div id="valPerso">
         <?php
             /**/
             //1)Entrar com os valores na URL do documento
             //Ex:
-            //http://localhost/.../operadores.php?a=3&b=2
-            //Obs: Neste caso, não dá para o arquivo ser index.php //verificar...
+            //http://localhost/.../index.php?a=3&b=2
+            
+            //Obs:Neste caso, sempre que for alterar o valor da variável, alterar direto na URL do documento.
             
             $n1 = $_GET["a"];
             $n2 = $_GET["b"];
