@@ -101,22 +101,29 @@
 
     <hr>
 
-    <h2><u>Valores Personalizados (pedindo ao usuário para entrar com os dados):</u></h2>
-    <pre>
-        <!--
-            1)Entrar com os valores na URL do documento
-            Ex:
-            //http://localhost/GitHub/jonesramos01/PHP/PHP-CEV/1.BASICO/3.operadores/1.aritm%c3%a9ticos/?a=3&b=2
-
-        -->
-
-    </pre>
-
+    <h2><u>Valores Personalizados (pedindo ao usuário para entrar com os dados):</u></h2> 
+    <hr>
     <div id="valPerso">
         <?php
-        
+            /**/
+            //1)Entrar com os valores na URL do documento
+            //Ex:
+            //http://localhost/.../operadores.php?a=3&b=2
+            //Obs: Neste caso, não dá para o arquivo ser index.php //verificar...
+            
             $n1 = $_GET["a"];
             $n2 = $_GET["b"];
+            
+            echo "n1 = $n1 <br>";
+            echo "n2 = $n2 <br><br>";
+
+            echo "Valores recebidos: $n1 e $n2 <br><br>";
+
+            echo "A soma entre n1 e n2 é: ". ($n1 + $n2);
+            echo "<br>A subtração entre n1 e n2 é: ". ($n1 - $n2);
+            echo "<br>A multiplicação entre n1 e n2 é: ". ($n1 * $n2);
+            echo "<br>A divisão entre n1 e n2 é: ". ($n1 / $n2);
+            echo "<br>O módulo (resto da divisão) entre n1 e n2 é: ". ($n1 % $n2);
         
         ?>    
     </div>
